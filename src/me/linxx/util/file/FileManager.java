@@ -1,4 +1,4 @@
-package me.linxx.util.configs;
+package me.linxx.util.file;
 
 import java.io.File;
 import java.io.IOException;
