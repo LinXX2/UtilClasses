@@ -7,7 +7,7 @@ import org.bukkit.inventory.ItemStack;
 public class WoolColor {
 
 	public String getColor( ItemStack wool ) {
-		return WoolColors.getByInt( 2 ).getName();
+		return WoolColors.getByInt( wool.getDurability() ).getName();
 
 	}
 
